@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    font-family: Quicksand;
+}
+#search {
+    z-index: 2000;
+    position: fixed;
+    height: 80px;
+    border: none;
+    width: 50%;
+    padding-right: 25%;
+    padding-left: 25%;
+    background: black;
+    outline: none;
+    color: white
+}
+
+.details{
+    display: grid;
+    padding-top: 100px;
+}

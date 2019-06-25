@@ -1,0 +1,34 @@
+.ArtistImage {
+    display: inline-block;
+    position: relative;
+    background: center;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.artistDetails {
+    margin-top: 0;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 0px;
+    display: inline-block
+}
+
+.artistName{
+    font-size: 20px;
+    text-transform: uppercase
+}
+.artistName, .artistFollowers, .artistGenres{
+    position: relative;
+}
+
+
+.ArtistArea{
+    position: relative;
+    width: 80%;
+    height:100%;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto
+};
+
